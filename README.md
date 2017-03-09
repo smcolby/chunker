@@ -1,6 +1,7 @@
 # chunker
 Command line tool to split a file into chunks of user-specified size, respecting delimitted breaks.
 
+```bash
 usage: chunker.py [-h] [-c CHUNKSIZE] (-d DELIMITER | -l LINES)
                   infile outfolder
 
@@ -18,3 +19,4 @@ optional arguments:
                         Delimiter for preserving text groups.
   -l LINES, --lines LINES
                         Number of lines to be considered a text group.
+```
